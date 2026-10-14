@@ -1,5 +1,7 @@
 # Digitalbank
 
+## By [Mamadou Moussa Balde](https://www.linkedin.com/in/2mb/)
+
 A landing page for Digitalbank. The browser tab title is **Frontend Mentor | Digitalbank landing page**. The font is Public Sans at 18px. Bootstrap 5 supplies the navbar, the grid, and the collapse menu. The custom styles are in the page itself.
 
 Every link on the page uses `href="#"`, except the Frontend Mentor credit. Home, About, Contact, Blog, Careers, the article titles, Request Invite, the logo, and the social icons all stay on this page.
