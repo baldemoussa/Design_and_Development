@@ -1,38 +1,18 @@
 # Digitalbank
 
-## By [Mamadou Moussa Balde](https://www.linkedin.com/in/2mb/)
+A landing page for Digitalbank.
 
-A landing page for Digitalbank. The browser tab title is **Frontend Mentor | Digitalbank landing page**. The font is Public Sans at 18px. Bootstrap 5 supplies the navbar, the grid, and the collapse menu. The custom styles are in the page itself.
+## Description
+
+The browser tab title is **Frontend Mentor | Digitalbank landing page**. The font is Public Sans at 18px. Bootstrap 5 supplies the navbar, the grid, and the collapse menu. The custom styles are in the page itself.
 
 Every link on the page uses `href="#"`, except the Frontend Mentor credit. Home, About, Contact, Blog, Careers, the article titles, Request Invite, the logo, and the social icons all stay on this page.
-
-## Screenshots
-
-**Wide layout.** At 1280px the nav is a row and Request Invite sits in the header. The phones are on the right. The four feature icons start under the hero.
-
-![Digitalbank hero with the nav and phone mockups](docs/screenshots/desktop.png)
-
-**Articles and footer.** Four article cards, then the dark blue footer and the credit line.
-
-![Four latest articles and the footer](docs/screenshots/articles.png)
-
-**375px wide.** The menu button replaces the nav links. The phones sit above the heading.
-
-![Narrow hero with the menu button and the phones above the heading](docs/screenshots/mobile.png)
-
-**Open menu.** The button lists Home, About, Contact, Blog, and Careers. Request Invite is not in that menu. The header button is hidden below 992px. The hero button and the footer button stay on the page.
-
-![Opened navigation listing Home, About, Contact, Blog, and Careers](docs/screenshots/menu.png)
-
-## Hero
 
 The heading is “Next generation digital banking.” Above 992px a line break sits after “generation.” The paragraph reads: “Take your financial life online. Your Digitalbank account will be a one-stop-shop for spending, saving, budgeting, investing, and much more.”
 
 Request Invite is a pill with a gradient from green `hsl(136, 64%, 51%)` to cyan `hsl(192, 70%, 47%)`. The stylesheet sets its hover opacity to 0.85. Nav links and footer links turn that same green on hover.
 
 The phone image alt text is “Digitalbank mobile mockups.” Below 576px that image is above the text. From 576px up, the text is on the left and the phones are on the right. The hero background is `bg-intro-mobile.svg` until 992px, then `bg-intro-desktop.svg`.
-
-## Why choose Digitalbank?
 
 “We leverage Open Banking to turn your bank account into your financial hub. Control your finances like never before.”
 
@@ -45,8 +25,6 @@ The phone image alt text is “Digitalbank mobile mockups.” Below 576px that i
 
 On a wide screen these are four columns. At the medium Bootstrap width they are two columns. At 375px they stack.
 
-## Latest articles
-
 | Author | Title |
 | --- | --- |
 | Claire Robinson | Receive money in any currency with no fees |
@@ -55,8 +33,6 @@ On a wide screen these are four columns. At the medium Bootstrap width they are 
 | Claire Robinson | Our invite-only Beta accounts are now live! |
 
 Each summary ends with an ellipsis. The titles are links that stay on this page. The cards are one column on a narrow screen, two from the medium breakpoint, and four from the large breakpoint.
-
-## Footer
 
 The footer background is dark blue `hsl(233, 26%, 24%)`. It repeats the light logo, Facebook, YouTube, Twitter, Pinterest, and Instagram, then About Us, Contact, Blog, Careers, Support, and Privacy Policy. Request Invite is on the right on a wide screen. The line under it is `© Digitalbank. All Rights Reserved`.
 
@@ -68,7 +44,38 @@ Challenge by Frontend Mentor. Coded by Mamadou Moussa Balde.
 
 Frontend Mentor links to `https://www.frontendmentor.io?ref=challenge`. The name link stays on this page.
 
-## How to open it
+At 1280px the nav is a row and Request Invite sits in the header. At 375px the menu button replaces the nav links and the phones sit above the heading. The open menu lists Home, About, Contact, Blog, and Careers. Request Invite is not in that menu. The header button is hidden below 992px. The hero button and the footer button stay on the page.
+
+## Screenshots
+
+### Wide layout
+
+![Digitalbank hero with the nav and phone mockups](docs/screenshots/desktop.png)
+
+### Articles and footer
+
+![Four latest articles and the footer](docs/screenshots/articles.png)
+
+### 375px wide
+
+![Narrow hero with the menu button and the phones above the heading](docs/screenshots/mobile.png)
+
+### Open menu
+
+![Opened navigation listing Home, About, Contact, Blog, and Careers](docs/screenshots/menu.png)
+
+## Getting Started
+
+### Dependencies
+
+* A browser
+* A network connection, because Bootstrap and Public Sans load from a CDN
+
+### Installing
+
+No install step.
+
+### Executing program
 
 Open `index.html` in a browser, or serve this folder:
 
@@ -76,9 +83,36 @@ Open `index.html` in a browser, or serve this folder:
 python -m http.server
 ```
 
-Bootstrap and Public Sans load from a CDN, so the page needs a network connection. The menu button is the layout below 992px. At 992px and above the links and the header Request Invite are in the bar.
+The menu button is the layout below 992px. At 992px and above the links and the header Request Invite are in the bar.
 
-# Reflection
+## Help
+
+Every link uses `href="#"` except the Frontend Mentor credit, so those links stay on this page. Request Invite is not in the collapsed menu. The header button is hidden below 992px.
+
+## Authors
+
+[Mamadou Moussa Balde](https://www.linkedin.com/in/2mb/)
+
+Frontend Mentor: [@baldemoussa](https://www.frontendmentor.io/profile/baldemoussa)
+
+## Version History
+
+* Current page
+    * Reviewed at 1280px and at 375px
+    * Open menu lists Home, About, Contact, Blog, and Careers
+
+## License
+
+This folder does not include a `LICENSE.md` file.
+
+## Acknowledgments
+
+* [Frontend Mentor](https://www.frontendmentor.io?ref=challenge)
+* [Bootstrap 5](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
+* [Public Sans](https://fonts.google.com/specimen/Public+Sans)
+* [README template](https://gist.github.com/DomPizzie/7a5ff55ffa9081f2de27c315f5018afc)
+
+## Reflection
 
 ### What I learned
 
@@ -100,8 +134,4 @@ In future projects, I want to focus on refining my CSS architecture to make it m
 
 ### Useful resources
 
-- [Bootstrap 5 Documentation](https://getbootstrap.com/docs/5.3/getting-started/introduction/) - The official documentation was essential for quickly implementing grid layouts and responsive navigation.
-
-## Author
-
-- Frontend Mentor - [@baldemoussa](https://www.frontendmentor.io/profile/baldemoussa)
+* [Bootstrap 5 Documentation](https://getbootstrap.com/docs/5.3/getting-started/introduction/) was essential for quickly implementing grid layouts and responsive navigation.
